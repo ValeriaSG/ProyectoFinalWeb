@@ -14,7 +14,7 @@
         <a class="navbar-brand" href="#">
             <img src="img/img3.png" alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
             PHP
-          </a>
+        </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -97,13 +97,12 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <h1>¿Que es PHP?</h1>
+            <h1 id="queesphp">¿Que es PHP?</h1>
           </div>
         </div>
           <div class="row">
             <div class="col-6">
-              <p id="texto1">PHP, actual acrónimo recursivo (aquel que no representa de forma exacta el sentido de la palabra) de “Hypertext Preprocessor”, es un lenguaje de programación de código abierto bien establecido y  especializado en el desarrollo web; siendo su principal uso el agregarse a HTML como complemento y teniendo su mayor diferencia con otros lenguajes en donde se ejecuta el código escrito.
-              </p>
+              <p id="texto1">PHP, actual acrónimo recursivo (aquel que no representa de forma exacta el sentido de la palabra) de “Hypertext Preprocessor”, es un lenguaje de programación de código abierto bien establecido y  especializado en el desarrollo web; siendo su principal uso el agregarse a HTML como complemento y teniendo su mayor diferencia con otros lenguajes en donde se ejecuta el código escrito.</p>
             </div>
             <div class="col-6">
               <img id="logoPHP" src="img/img4.png"  alt="">
@@ -112,7 +111,7 @@
 
           <div class="row">
             <div class="col">
-              <h1>PHP conta los lenguajes</h1>
+              <h1 id="phpvs">PHP contra los lenguajes</h1>
             </div>
           </div>
 
@@ -125,37 +124,58 @@
 
           <div class="row">
             <div class="col">
-              <h1>Ventajas y Desventajas</h1>
+              <h1 id="VyD">Ventajas y Desventajas</h1>
             </div>
           </div>
 
+          <!--
+              <div class="card" style="width: 18rem;">
+                <div id="ventajas" class="card-header">
+                  <h2>Ventajas</h2>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Al distribuir la carga de procesamiento entre el navegador y el servidor se gana agilidad y velocidad en la conexión de los usuarios con los servidores, lo que se traduce en velocidad de navegación.</li>
+                  <li class="list-group-item">Por su enfoque a la conexión con servidores, es mucho más fácil conectar una sola página web con distintas bases de datos, cada una en su propio servidor, y a la vez, aprovechar sus recursos para agilizar incluso más la navegación.</li>
+                  <li class="list-group-item">PHP al actuar más como una herramienta, puede combinarse con otros lenguajes de programación como HTML, CSS o Java, sin perder ninguna de sus cualidades.</li>
+                  <li class="list-group-item">Gracias a su funcionamiento simple pero eficaz se ha ganado una comunidad muy grande de desarrolladores que lo actualizan y mejoran constantemente.</li>
+                </ul>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <div id="desventajas" class="card-header">
+                  <h2 >Desventajas</h2>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Al depender de un servidor externo, es necesaria cierta capacidad de cómputo para no perder rendimiento en caso de recibir un gran número de peticiones en poco tiempo.</li>
+                  <li class="list-group-item">Debido a su simpleza, PHP no cuenta con herramientas de depuración para buscar errores y advertencias.</li>
+                  <li class="list-group-item">Al mismo tiempo que su código abierto y uso extendido, PHP es uno de los lenguajes más inseguros. Es fácil descargar algún “código de apoyo” para la programación en PHP malicioso o infectado, además de que al descargar información sin comprobaciones de un servidor externo se pueden agregar todo tipo de archivos sin el conocimiento del usuario.</li>
+                </ul>
+              </div>
+            -->
+
           <div class="row">
-            <div class="col-6">
+            <div id="ventajas" class="col-6">
               <h3>Ventajas</h3>
               <ul>
-                <li>Al distribuir la carga de procesamiento entre el navegador y el servidor se gana agilidad y velocidad en la conexión de los usuarios con los servidores, lo que se traduce en velocidad de navegación.
-                </li>
-                <li>Por su enfoque a la conexión con servidores, es mucho más fácil conectar una sola página web con distintas bases de datos, cada una en su propio servidor, y a la vez, aprovechar sus recursos para agilizar incluso más la navegación.
-                </li>
+                <li>Al distribuir la carga de procesamiento entre el navegador y el servidor se gana agilidad y velocidad en la conexión de los usuarios con los servidores, lo que se traduce en velocidad de navegación.</li>
+                <li>Por su enfoque a la conexión con servidores, es mucho más fácil conectar una sola página web con distintas bases de datos, cada una en su propio servidor, y a la vez, aprovechar sus recursos para agilizar incluso más la navegación.</li>
                 <li>PHP al actuar más como una herramienta, puede combinarse con otros lenguajes de programación como HTML, CSS o Java, sin perder ninguna de sus cualidades.</li>
-                <li>Gracias a su funcionamiento simple pero eficaz se ha ganado una comunidad muy grande de desarrolladores que lo actualizan y mejoran constantemente.
-                </li>
+                <li>Gracias a su funcionamiento simple pero eficaz se ha ganado una comunidad muy grande de desarrolladores que lo actualizan y mejoran constantemente.</li>
               </ul>
             </div>
-            <div class="col-6">
+            <div id="desventajas" class="col-6">
               <h3>Desventajas</h3>
               <ul>
-                <li>Al depender de un servidor externo, es necesaria cierta capacidad de cómputo para no perder rendimiento en caso de recibir un gran número de peticiones en poco tiempo.
-                </li>
+                <li>Al depender de un servidor externo, es necesaria cierta capacidad de cómputo para no perder rendimiento en caso de recibir un gran número de peticiones en poco tiempo.</li>
                 <li>Debido a su simpleza, PHP no cuenta con herramientas de depuración para buscar errores y advertencias.</li>
-                <li>Debido a su simpleza, PHP no cuenta con herramientas de depuración para buscar errores y advertencias.</li>
+                <li>Al mismo tiempo que su código abierto y uso extendido, PHP es uno de los lenguajes más inseguros. Es fácil descargar algún “código de apoyo” para la programación en PHP malicioso o infectado, además de que al descargar información sin comprobaciones de un servidor externo se pueden agregar todo tipo de archivos sin el conocimiento del usuario.</li>
               </ul>
             </div>
           </div>
 
           <div class="row">
             <div class="col">
-              <h1>Historia de PHP</h1>
+               <h1 id="historia">Historia de PHP</h1>
             </div>
           </div>
 
@@ -174,23 +194,21 @@
             <div class="col">
               <p>Luego, con PHP versión 4, se introdujo el motor Zend, que satisfacía mejor las necesidades de la época y solucionaba los problemas de la versión anterior. Además, gana en velocidad (primero compila y luego ejecuta), así como una API más funcional y mucho más completa.</p>
               <p>Con la versión 5, PHP alcanzó su punto máximo, integrando mejor la programación orientada a objetos, que, aunque estaba disponible en la versión 4, no lograba satisfacer las necesidades de los desarrolladores. Su importancia es tal que lleva más de 11 años en el mercado y actualmente se encuentra en constante mantenimiento.</p>
-              <p>Después de 11 largos años de cambios sutiles, la versión 5 de PHP fue migrada directamente a PHP 7, ya que la versión 6 no vio la luz debido a muchos inconvenientes. Con el lanzamiento de PHP 7 se han incorporado importantes mejoras de rendimiento. Hoy en día tiene disponible en un gran número de bibliotecas y el software se sigue actualizando.
-              </p>
+              <p>Después de 11 largos años de cambios sutiles, la versión 5 de PHP fue migrada directamente a PHP 7, ya que la versión 6 no vio la luz debido a muchos inconvenientes. Con el lanzamiento de PHP 7 se han incorporado importantes mejoras de rendimiento. Hoy en día tiene disponible en un gran número de bibliotecas y el software se sigue actualizando.</p>
             </div>
           </div>
 
           <div class="row">
             <div class="col">
-              <h1>Uso de PHP</h1>
+              <h1 id="usos">Uso de PHP</h1>
             </div>
           </div>
 
           <div class="row">
             <div class="col">
-              <h3 id="ebas">Etiquetas Basicas</h3>
+              <h3 id="basicas">Etiquetas Basicas</h3>
               <p id="subtitulo">“&lt;?php”  y “ ?&gt;”</p>
-              <p>El comando más importante en PHP, el uso de  etiquetas de apertura y cierre unicas:  “&lt;?php”  para abrir y   “ ?&gt;”  para cerrar, estas le dicen a PHP dónde empezar y finalizar la interpretación del código. Con este sistema PHP puede interactuar con todo tipo de documentos, ya que todo lo que esté fuera de las etiquetas de apertura y cierre será ignorado por el analizador.
-              </p>
+              <p>El comando más importante en PHP, el uso de  etiquetas de apertura y cierre unicas:  “&lt;?php”  para abrir y   “ ?&gt;”  para cerrar, estas le dicen a PHP dónde empezar y finalizar la interpretación del código. Con este sistema PHP puede interactuar con todo tipo de documentos, ya que todo lo que esté fuera de las etiquetas de apertura y cierre será ignorado por el analizador.</p>
               <p id="ejemplo">Ejemplo:</p>
             </div>
           </div>
@@ -204,8 +222,7 @@
           <div class="row">
             <div class="col">
               <p id="subtitulo">“echo” y “$”</p>
-              <p>Mientras que “echo” sirve para enviar un mensaje en pantalla sobre el contenido de ciertas variables o también cadenas simples “$” es usado para agregar o guardar valor a una variable.
-              </p>
+              <p>Mientras que “echo” sirve para enviar un mensaje en pantalla sobre el contenido de ciertas variables o también cadenas simples “$” es usado para agregar o guardar valor a una variable.</p>
               <p id="ejemplo">Ejemplo:</p>
             </div>
           </div>
@@ -219,8 +236,7 @@
           <div class="row">
             <div class="col">
               <p id="subtitulo">“print”</p>
-              <p>Similar a “echo”, se usa para presentar una cadena en pantalla, es más recomendado para textos y cuenta con más posibilidades para organizar la información.
-              </p>
+              <p>Similar a “echo”, se usa para presentar una cadena en pantalla, es más recomendado para textos y cuenta con más posibilidades para organizar la información.</p>
               <p id="ejemplo">Ejemplo:</p>
             </div>
           </div>
@@ -233,9 +249,8 @@
 
           <div class="row">
             <div class="col">
-              <h3 id="ebas">Separación de instrucciones</h3>
-              <p>PHP requiere que las instrucciones terminen en punto y coma al final de cada sentencia. La etiqueta de cierre de un bloque de código de PHP automáticamente implica un punto y coma; no es necesario usar un punto y coma para cerrar la última línea de un bloque de PHP. 
-              </p>
+              <h3 id="instrucciones">Separación de instrucciones</h3>
+              <p>PHP requiere que las instrucciones terminen en punto y coma al final de cada sentencia. La etiqueta de cierre de un bloque de código de PHP automáticamente implica un punto y coma; no es necesario usar un punto y coma para cerrar la última línea de un bloque de PHP. </p>
               <p id="ejemplo">Ejemplo</p>
             </div>
           </div>
@@ -248,7 +263,7 @@
 
           <div class="row">
             <div class="col">
-              <h3 id="ebas">Etiquetas con condiciones</h3>
+              <h3 id="condiciones">Etiquetas con condiciones</h3>
               <p>PHP también es capaz analizar condicionales para elegir que elementos procesar. Como particularidad, a diferencia de otros lenguajes, PHP ignora completamente los bloques con condiciones que no se cumplen,  esto en favor de la eficiencia de los servidores.</p>
               <p id="ejemplo">Ejemplo</p>
             </div>
@@ -262,7 +277,7 @@
 
           <div class="row">
             <div class="col">
-              <h3 id="ebas">Comentarios</h3>
+              <h3 id="comentarios">Comentarios</h3>
               <p>En PHP hay muchas formas de hacer comentarios, debido a su idea de versatilidad se agregó la opción de admitir  comentarios al estilo de 'C', 'C++' y de consola de Unix.</p>
               <p id="ejemplo">Ejemplo</p>
             </div>
@@ -276,23 +291,21 @@
 
           <div class="row">
             <div class="col">
-              <h1>¿Como obtener PHP?</h1>
+              <h1 id="obtener">¿Como obtener PHP?</h1>
             </div>
           </div>
 
           <div class="row">
             <div class="col">
-              <h3 id="ebas">Desde donde descargar PHP</h3>
-              <p>Recordemos que PHP es un lenguaje de código abierto, por ende, es posible encontrar tanto complementos hechos otros por usuarios como versiones compatibles con todos los sistemas operativos o servidores (Linux, macOS, Windows…), también es posible descargarlo de múltiples fuentes: repositorios de GitHub, blogs en foros, desde unidades de almacenamiento físico, y la más recomendable, desde la página “oficial” de PHP; https://www.php.net/downloads.php , donde se encuentran todas las versiones originales publicadas hasta ahora.
-              </p>
-              <p>Es importante solo utilizar fuentes de descarga confiables para evitar la transferencia de malware o virus de terceros y de ser posible, comprobar las opiniones de otros usuarios, una tarea fácil considerando el tamaño de la comunidad de PHP.
-              </p>
+             <h3 id="dondeDesc">Desde donde descargar PHP</h3>
+              <p>Recordemos que PHP es un lenguaje de código abierto, por ende, es posible encontrar tanto complementos hechos otros por usuarios como versiones compatibles con todos los sistemas operativos o servidores (Linux, macOS, Windows…), también es posible descargarlo de múltiples fuentes: repositorios de GitHub, blogs en foros, desde unidades de almacenamiento físico, y la más recomendable, desde la página “oficial” de PHP; https://www.php.net/downloads.php , donde se encuentran todas las versiones originales publicadas hasta ahora.</p>
+              <p>Es importante solo utilizar fuentes de descarga confiables para evitar la transferencia de malware o virus de terceros y de ser posible, comprobar las opiniones de otros usuarios, una tarea fácil considerando el tamaño de la comunidad de PHP.</p>
             </div>
           </div>
 
           <div class="row">
             <div class="col">
-              <h3 id="ebas">Requisitos Minimos</h3>
+              <h3 id="requisitos">Requisitos Minimos</h3>
             </div>
           </div>
 
@@ -311,7 +324,7 @@
 
           <div class="row">
             <div class="col">
-              <h3 id="ebas">Extensiones y Complementos</h3>
+              <h3 id="extensiones">Extensiones y Complementos</h3>
               <p>Gracias al trabajo de su enorme comunidad PHP cuenta con un gran número de extensiones y complementos disponibles. La mayoría diseñadas para solucionar debilidades del código original, pero muchas otras pensadas para agilizar procesos haciendo que PHP pueda trabajar en conjunto con otros sistemas, añadiendo todo tipo de funcionalidades extra.</p>
               <p>Estos agregados se presentan como bibliotecas compartidas que deben ser descomprimidas en la misma carpeta donde esté instalado PHP.ini . Para ser llamadas al código basta con eliminar el punto y coma (;) delante de extension=extensionname , también escrito en el archivo PHP.ini, para comenzar a utilizar sus propiedades.</p>
             </div>
@@ -359,7 +372,7 @@
           </div>
 
           <div id="final" class="row">
-            <div class="col-4">
+            <div class="col-4" id="contacto">
               <img id="logos" src="img/fes.png" alt="">
             </div>
             <div id="nombres" class="col-4">
