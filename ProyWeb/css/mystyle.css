@@ -7,7 +7,8 @@ body{
 }
 button,
 span,
-a{
+a,
+li{
     cursor: url(../img/cursor2.png),auto; 
 }
 a{
